@@ -6,7 +6,7 @@ C# code for and an example using a custom SynchronizationContext that serializes
 The code here was developed as part of my team's work on an application using
 async/await. The application deals with user input and wireless communication
 and so asynchronous events are flowing from one to the other. Thread
-serializaiton was required to protect concurrent access to class tate. Through
+serializaiton was required to protect concurrent access to class state. Through
 a process of iterative refinement, we came up with this custom
 SerializationContext.
 
